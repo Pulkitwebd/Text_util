@@ -68,7 +68,7 @@ const TextUtil = (props) => {
           Change To LowerCase
         </button>
         <button disabled={text.length===0} className="btn btn-primary mx-2 my-1" onClick={capitalFirstLetter}>
-          Capitalize Each Letter Word
+          Capitalize 
         </button>
         <button disabled={text.length===0} className="btn btn-primary mx-2 my-1" onClick={handleCopy}>
           Copy Text
